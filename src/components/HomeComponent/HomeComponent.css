@@ -22,6 +22,8 @@
   }
   .content{
     background-color: black ;
+    border-radius: 10px;
+    border-color: white;
     font-size: 40px;
   }
   
@@ -39,6 +41,7 @@
     color: #fff;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
+
   }
   
   @-webkit-keyframes glow {
