@@ -1,7 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react'
 import '../HomeComponent/HomeComponent.css'
 import video from '../HomeComponent/videobg.mp4'
 const HomeComponent = () => {
+    
+        useEffect(() => {
+          document.title = "Bala Portfolio";
+        }, []);
+        
   return (
     <div className='main'>
         <div className="overlay"></div>
