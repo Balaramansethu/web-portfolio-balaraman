@@ -4,6 +4,10 @@ import '../HomeComponent/HomeComponent.css'
 import video from '../HomeComponent/videobg.mp4'
 const HomeComponent = () => {
     
+        useEffect(() => {
+        //   document.title = "Bala Portfolio";
+          <img src="public\favicon.ico" alt="Logo" />
+        }, []);
 
   return (
     <div className='main'>
